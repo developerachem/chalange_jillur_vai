@@ -1,0 +1,59 @@
+main {
+    max-width: 1300px;
+    margin: auto;
+}
+img{
+    max-width: 100%;
+}
+
+.flot-clear::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+}
+
+.btn {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    background: #23a9f2;
+    font-size: 23px;
+    font-weight: 500;
+    border-radius: 6px;
+    transition: .5s;
+    cursor: pointer;
+}
+.btn:hover{
+    background: #1a79ac;
+}
+body{
+    font-family:  arial, sans-serif;
+}

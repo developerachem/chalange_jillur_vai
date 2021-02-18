@@ -1,0 +1,577 @@
+/* .............headar-menu............. */
+.background-image {
+    background: url(https://i.ibb.co/0ZW3rd9/slider-bg-2.jpg) no-repeat;
+    background-size: cover;
+    background-position: bottom left;
+    background-position: bottom left;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.397);
+    background-blend-mode: overlay;
+    background-color: rgba(10, 10, 10, 0.664);
+}
+
+.headar-menu-left {
+    width: 40%;
+}
+
+.headar-menu-right {
+    width: 40%;
+}
+
+.headar-menu-left a {
+    display: inline-block;
+    margin-right: 51px;
+    color: white;
+    line-height: 42px;
+}
+
+.icon-left {
+    margin-right: 12px;
+}
+
+.icon-right {
+    margin-left: 20px;
+}
+
+.select {
+    background: transparent;
+    outline: none;
+    border: 1px solid wheat;
+    color: white;
+    cursor: pointer;
+}
+
+.headar-menu-right ul {}
+
+.headar-menu-right ul li {
+
+    display: inline-block;
+    position: relative;
+}
+
+.headar-menu-right ul li a {
+    display: inline-block;
+    color: white;
+    margin-left: 36px;
+    line-height: 42px;
+    transition: .5s;
+}
+
+.headar-menu-right ul li a :hover {
+    color: rgb(197, 168, 197);
+}
+
+/* .....main-menu........... */
+.main-menu-bg {
+    padding: 20px 0;
+    background: #e4dde936;
+}
+
+.menu-text ul li i {
+    font-weight: 400;
+    margin-left: 4px;
+    font-size: 13px;
+}
+
+.menu-img-logo {
+    width: 30%;
+}
+
+.menu-img-logo img {
+    width: 140px;
+    margin-left: 30px;
+}
+
+.menu-text {
+    width: 65%;
+}
+
+.menu-text ul {}
+
+.menu-text ul li {
+    display: inline-block;
+}
+
+.menu-text ul li a {
+    display: inline-block;
+    margin-left: 34px;
+    font-weight: 600;
+    color: white;
+    line-height: 36px;
+}
+
+.menu-text ul li a :hover {}
+
+.menu-text ul li {
+    position: relative;
+}
+
+.menu-text ul li ul {
+    position: absolute;
+    top: 100%;
+    left: 35px;
+    background-color: rgba(255, 255, 255, 0.918);
+    width: 200px;
+    padding-left: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.459);
+    visibility: hidden;
+    opacity: 0;
+}
+
+.menu-text ul li ul li {
+
+    border-bottom: 1px solid rgba(0, 0, 0, 0.459);
+    display: block;
+}
+
+.menu-text ul li ul li a {
+    color: rgb(105, 102, 102);
+    display: block;
+    margin-left: 14px;
+    line-height: 45px;
+}
+
+.menu-text ul li ul li a:hover {
+    color: #b5958e;
+}
+
+.menu-text ul li:hover>ul {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* ...........Banner Section............ */
+.banner {
+    padding: 100px 0;
+    width: 693px;
+    margin: auto;
+}
+
+.banner span {
+    background: #0003;
+    color: white;
+    padding: 7px 13px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.banner h1 {
+    color: white;
+    font-size: 44px;
+}
+
+.banner p {
+    color: white;
+    margin-bottom: 48px;
+    line-height: 1.7em;
+}
+
+.button-1 {
+    background-color: #af9089;
+    font-size: 20px;
+}
+
+.button-2 {
+    color: black;
+    background: white;
+    margin-left: 31px;
+    font-size: 20px;
+}
+
+.button-1:hover {
+    background-color: rgb(49, 48, 48);
+}
+
+.button-2:hover {
+    background-color: #af9089;
+    color: white;
+}
+
+
+/* ................. Treatment Section.................. */
+.treatment-section {
+    padding: 100px 0;
+}
+
+.treatment {
+    width: 31%;
+    height: 530px;
+    background-color: #feebea;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.color {
+    margin: 0 2.2%;
+    background-color: #dceff8;
+}
+
+.treatment img {
+    width: 75%;
+    margin-top: -3px;
+}
+
+.treatment h4 {
+    font-size: 27px;
+    margin-bottom: 19px;
+}
+
+.treatment p {
+    font-weight: 300;
+    font-size: 16px;
+    color: #556655ba;
+    margin-bottom: 40px;
+}
+
+
+
+.treatment-btn a {
+    background: #ffffff;
+    margin: auto;
+    font-size: 17px;
+    color: black;
+    display: inline-block;
+    padding: 15px 26px;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.treatment-btn a:hover {
+    background-color: #b5958e;
+    color: white;
+}
+
+/* .................doctors............... */
+.doctors {
+    background-color: #feebea;
+    padding: 100px 15px 0 15px;
+}
+
+.doctors-text {
+    width: 55%;
+}
+
+.doctors-image {
+    width: 40%;
+}
+
+.doctors-text {}
+
+.doctors-text h1 {
+    font-size: 38px;
+    color: #423633;
+}
+
+.doctors-text p {
+    line-height: 1.8em;
+    color: #51545d;
+}
+
+.doctors-text img {
+    margin: 10px 0;
+}
+
+.name {
+    width: 40%;
+}
+
+.madel {
+    width: 60%;
+}
+
+.name h2 {
+    color: #423633;
+}
+
+.name p {
+    margin-top: -12px;
+    font-size: 15px;
+    color: #b5958e;
+    font-weight: 600;
+}
+
+.madel img {
+    margin-left: 54px;
+    margin-bottom: 0;
+}
+
+/* ............Services Section.............. */
+.service {
+    padding: 50px 0;
+    width: 603px;
+    margin: auto;
+}
+
+.service h2 {
+    font-size: 36px;
+    color: #423633;
+}
+
+.service p {
+    color: #61545d;
+    line-height: 1.7em;
+}
+
+/* ............service-item............... */
+.service-item {}
+
+.service-option {
+    width: 31%;
+    background: #f9f8ff;
+    padding: 35px;
+    box-sizing: border-box;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    box-shadow: 0px 0px 15px #0000001a;
+    transition: .5s;
+}
+
+.service-option:hover {
+    box-shadow: 0px 0px 30px #0000002f;
+}
+
+.service-option img {
+    margin-bottom: -13px;
+}
+
+.service-option h4 {
+    font-size: 22px;
+    margin-bottom: -6px;
+    color: #423633;
+}
+
+.service-option p {
+    line-height: 1.7em;
+    margin-bottom: 30px;
+    color: #51545d;
+}
+
+.service-option a {
+    color: #ba9d96;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.service-option a:hover {
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+
+.all-service a {
+    color: #ba9d96;
+    display: inline-block;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    transition: .5s;
+}
+
+.all-service a:hover {
+    letter-spacing: 2px;
+}
+
+/* ...................Surgical Section.................. */
+.surgical-section {
+    padding: 100px 0;
+}
+
+.surgical-image {
+    width: 48%;
+}
+
+.surgical-image img {
+    height: 496px;
+}
+
+.surgical-content {
+    width: 48%;
+    background: #feefee;
+    padding: 35px;
+    box-sizing: border-box;
+}
+
+.surgical-content h3 {
+    margin-top: -6px;
+    font-size: 37px;
+    line-height: 47px;
+    margin-bottom: 1px;
+    color: #423633;
+}
+
+.surgical-content p {
+    line-height: 1.5em;
+    font-size: 13px;
+    margin-bottom: 31px;
+    color: #51545d;
+}
+
+.surgical-content details {}
+
+.surgical-content details summary {
+    display: inline-block;
+    color: #423669;
+    margin-bottom: 13px;
+}
+
+.surgical-content details summary i {
+    color: #b5958e;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.surgical-content details p {
+    margin-top: -5px;
+    font-size: 13px;
+    width: 450px;
+    color: #51545d;
+}
+
+.surgical-btn a {
+    background-color: #b5958e;
+    padding: 15px 39px;
+    color: white;
+    margin-top: 40px;
+}
+
+.surgical-btn a:hover {
+    background-color: #615654;
+}
+
+/* .............. Team Section...................*/
+.tean-section {
+    margin-bottom: 50px;
+}
+
+.tean-section h1 {}
+
+.tean-section p {}
+
+.our-team {
+    width: 24%;
+    background: #feebea;
+    padding: 30px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+
+.our-team img {
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+.our-team a {
+    display: inline-block;
+    color: #51545d;
+    font-size: 21px;
+    margin: 11px;
+}
+
+.our-team span {
+    display: block;
+    color: #8f949d;
+    font-size: 15px;
+}
+
+.team-icon {
+    background: #fff;
+    margin-top: 20px;
+}
+
+.team-icon ul {
+    padding-left: 0;
+}
+
+.team-icon ul li {
+    display: inline-block;
+}
+
+.team-icon ul li a {
+    display: inline-block;
+    padding: 0 9px;
+    color: #b5958e;
+    transition: .5s;
+}
+
+.team-icon ul li a:hover {
+    color: #007acc;
+    transform: scale(1.2);
+}
+
+.team-bg {
+    background: #e5eff9;
+    margin-left: 17px;
+}
+
+.m-l {
+    margin-left: 17px;
+}
+
+.our-team:hover {
+    transform: translateY(-8px);
+}
+
+/* .................Gallery Section.............. */
+.gallery-section {
+    background: #fff5f4;
+    padding: 30px 0 70px 0;
+}
+
+.gallery-image {
+    width: 32%;
+    margin-left: 1%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.144);
+}
+
+.gallery-image-2 img {
+    border: 10px solid white;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 111;
+}
+
+.gallery-image-2::after {
+    content: "";
+    background-color: rgba(209, 43, 43, 0.363);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.gallery-btn a {
+    display: inline-block;
+    margin-top: 35px;
+}
+
+/* ..................Review Section.................... */
+.review {
+    width: 48%;
+    margin-right: 2%;
+    padding: 30px;
+    box-shadow: 0px 0px 15px #00000038;
+    margin-bottom: 60px;
+    box-sizing: border-box;
+}
+
+.review-image img {
+    border-radius: 50%;
+    width: 130px;
+    margin-bottom: 30px;
+}
+
+.review p {
+    color: #93949a;
+}
+
+.review h3 {
+    color: #423633;
+    font-size: 26px;
+    margin-bottom: 0px;
+}
+
+.review span {
+    font-size: 16px;
+    color: #767676;
+}
