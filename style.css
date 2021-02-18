@@ -410,6 +410,7 @@
     display: inline-block;
     color: #423669;
     margin-bottom: 13px;
+    list-style: none;
 }
 
 .surgical-content details summary i {
