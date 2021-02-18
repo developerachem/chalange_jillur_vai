@@ -407,7 +407,7 @@
 .surgical-content details {}
 
 .surgical-content details summary {
-    display: inline-block;
+    display: block;
     color: #423669;
     margin-bottom: 13px;
     list-style: none;
