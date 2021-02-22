@@ -385,6 +385,8 @@
     background: #feefee;
     padding: 35px;
     box-sizing: border-box;
+    overflow-y: scroll;
+    height: 500px;
 }
 
 .surgical-content h3 {
